@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 import random
-bot = telebot.TeleBot("Ключ от бота")
+bot = telebot.TeleBot("Ключ от бота") #Ключ нужно получить у BotFather в телеграмме.
 
 start = 221
 player_number = 0
