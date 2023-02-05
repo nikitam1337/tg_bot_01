@@ -7,7 +7,7 @@ start = 221
 player_number = 0
 count = 0
 
-@bot.message_handler(commands=["start"])
+@bot.message_handler(commands=["start"]) # Эта команда позволяет отловить введенное сообщение от пользователя
 def hello(message):
     bot.send_message(message.chat.id, "Привет! Это Игра с конфетами.\n\
 Введи команду: /button")
